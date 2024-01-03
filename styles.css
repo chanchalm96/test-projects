@@ -2,13 +2,23 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+/* .container{
+    max-width: 100%;
+    margin: 0 auto;
+} */
 .cow{
     background-image: url(cow.jpg);
-    /* background-size: cover; */
+    background-size: cover;
     background-position: bottom center;
     height: 100vh;
     background-repeat: no-repeat;
+    /* max-width: 900px;
+    margin: 0 auto;
+    display: block;
+    align-items: center; */
+
 }
 
 .cow h1{
@@ -24,15 +34,19 @@
 .essey{
     margin-bottom: 30px;
     text-align: center;
-    border: 0px 0px 15px 0px solid yellow;
+    padding-bottom: 16px;
+    border-bottom: 2px solid black;
 }
 .article{
     margin: 60px auto;
     padding: 60px;
+    width: 80%;
     border-width: 15px;
     border-color: yellow;
     border-style: solid;
     background-color: aquamarine;
+    text-align: justify;
+    border-radius: 10px;
 }
  .h2{
     text-align: center;
@@ -42,6 +56,9 @@
 
 .cow-type{
     display: flex;
+    width: 90%;
+    margin: 10px auto;
+    overflow: hidden;
     flex-direction: row;
     justify-content: space-between;
     gap: 20px;
